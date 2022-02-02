@@ -1,0 +1,43 @@
+@keyframes fade {
+From {
+path {
+  fill: none;
+  stroke: #0216AE;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+  will-change: strokeDasharray, strokeDashoffset;
+  transform: translateZ(0);
+  
+}
+  .st0{clip-path:url(#SVGID_2_);}
+  .st1{fill:none;stroke:#0000AC;stroke-width:9.951;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+  .st2{fill:none;stroke:#0000AC;stroke-width:9.9508;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+  .st3{clip-path:url(#SVGID_4_);}
+body {
+  height: 100vh;
+}
+}
+To {
+.wrap {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F06A44;
+}
+
+svg {
+  width: 90vw;
+  height: 90vh;
+  display: block;
+  // animation: rotate 120s forwards infinite linear;
+}
+@keyframes rotate {
+  to {
+    transform: rotate(3600deg);
+  }
+}
+}
+}
